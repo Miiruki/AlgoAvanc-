@@ -1,4 +1,4 @@
-int changer(unsigned char chaine[100], char a, char b)
+int changer(unsigned char* chaine, char a, char b)
 {
     int i;
     i = 0;

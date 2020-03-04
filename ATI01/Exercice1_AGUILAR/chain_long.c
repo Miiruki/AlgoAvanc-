@@ -1,4 +1,4 @@
-int compteur(unsigned char chaine[100])
+int compteur(unsigned char *chaine)
 {
     int i;
     i = 0;

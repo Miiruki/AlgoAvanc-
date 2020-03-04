@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int changer(unsigned char chaine[100])
+int changer(unsigned char *chaine)
 {
     int i;
     i = 0;

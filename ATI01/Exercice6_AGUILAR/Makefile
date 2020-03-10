@@ -1,0 +1,24 @@
+CC = gcc
+CFLAGS = -g -Wall -O2
+LDFLAGS = -lm
+RM = rm
+
+test : pall.o main.o
+	$(CC) -o test $(LDFLAGS) main.o pall.o
+
+%.o : %.c
+	$(CC) -c $(CFLAGS) $<
+
+all : test
+
+clean :
+	$(RM) *.o
+
+clear :
+	clear
+
+tar :
+	$(RM) test
+	tar -cvf ../Exercice6_AGUILAR.tar ../Exercice6_AGUILAR/
+	gzip ../Exercice6_AGUILAR.tar
+	cp ../Exercice6_AGUILAR.tar.gz /mnt/c/Users/aguil/Desktop/

@@ -1,7 +1,7 @@
-#ifndef MIRROR_H
-#define MIRROR_H
+#ifndef PALL_H
+#define PALL_H
 
-int mirror(unsigned char*, int);
+int pall(unsigned char*, int);
 
 typedef struct point_s {
     

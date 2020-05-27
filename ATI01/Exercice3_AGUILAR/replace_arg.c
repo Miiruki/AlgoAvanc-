@@ -1,3 +1,5 @@
+#include "toolbox.h"
+
 int changer(unsigned char* chaine, char a, char b)
 {
     int i;

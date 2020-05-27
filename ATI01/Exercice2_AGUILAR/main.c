@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "replace.h"
+#include "toolbox.h"
 
 int main(int argc, char **argv, char **envv)
 {
@@ -19,7 +19,7 @@ int main(int argc, char **argv, char **envv)
     message.chain[10] = 'D';
     message.chain[11] = ' ';
     message.chain[12] = '\0';
-    changer(message.chain);
+    change(message.chain);
     printf("%s\n", message.chain);
     free (message.chain);
     return 0;

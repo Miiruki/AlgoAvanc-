@@ -1,5 +1,5 @@
 
-int min(unsigned char* chaine)
+void min(unsigned char* chaine)
 {
     int i;
     int j;
@@ -13,5 +13,4 @@ int min(unsigned char* chaine)
         }
         i++;
     }
-    return i;
 }

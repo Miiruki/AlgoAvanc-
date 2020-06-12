@@ -1,6 +1,6 @@
 #include "toolbox.h"
 
-int changer(unsigned char* chaine, char a, char b)
+void changer(unsigned char* chaine, char a, char b)
 {
     int i;
     i = 0;
@@ -12,5 +12,4 @@ int changer(unsigned char* chaine, char a, char b)
         }
         i++;
     }
-    return i;
 }

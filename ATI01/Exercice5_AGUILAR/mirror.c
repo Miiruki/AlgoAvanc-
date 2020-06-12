@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int mirror(unsigned char* chaine, int len){
+void mirror(unsigned char* chaine, int len){
     int i = 0;
     int j = len - 1;
     unsigned char k;
@@ -10,5 +10,4 @@ int mirror(unsigned char* chaine, int len){
         chaine[j] = k;
         i++ , j--;
     }
-    return i;
 }

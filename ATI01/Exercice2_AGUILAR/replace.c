@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int change(unsigned char *chaine)
+void change(unsigned char *chaine)
 {
     int i;
     i = 0;
@@ -12,5 +12,4 @@ int change(unsigned char *chaine)
         }
         i++;
     }
-    return i;
 }

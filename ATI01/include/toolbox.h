@@ -11,14 +11,14 @@ typedef struct point_s{
 
 int compteur(unsigned char *chaine) ;
 
-int min(unsigned char chaine[100]);
+void min(unsigned char chaine[100]);
 
-int mirror(unsigned char*, int);
+void mirror(unsigned char*, int);
 
 int pall(unsigned char*, int);
 
-int change(unsigned char chaine[100]);
+void change(unsigned char chaine[100]);
 
-int changer(unsigned char *, char a, char b);
+void changer(unsigned char *, char a, char b);
 
 #endif

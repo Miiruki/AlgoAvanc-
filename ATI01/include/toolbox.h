@@ -21,4 +21,6 @@ void change(unsigned char chaine[100]);
 
 void changer(unsigned char *, char a, char b);
 
+void cesar(unsigned char * tab , int code);
+
 #endif

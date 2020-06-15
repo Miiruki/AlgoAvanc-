@@ -12,7 +12,6 @@ int main(int argc, char** argv, char **env){
     while ( tab[i] != '\0'){
         message.chain[i] = tab [i];
         i++;
-        j = i;
     }
     printf("La chaine non-inversée est : %s\n" , message.chain);
     pall(message.chain, j);

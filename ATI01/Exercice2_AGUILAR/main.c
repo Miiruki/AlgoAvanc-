@@ -20,7 +20,6 @@ int main(int argc, char **argv, char **envv)
     message.chain[11] = ' ';
     message.chain[12] = '\0';
     change(message.chain);
-    printf("%s\n", message.chain);
     free (message.chain);
     return 0;
 }

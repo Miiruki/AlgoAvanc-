@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 void min(unsigned char* chaine)
 {
@@ -13,4 +14,6 @@ void min(unsigned char* chaine)
         }
         i++;
     }
+    printf("%s\n",chaine);
+
 }

@@ -10,4 +10,5 @@ void mirror(unsigned char* chaine, int len){
         chaine[j] = k;
         i++ , j--;
     }
+    printf("La chaine inversée est : %s\n",chaine);
 }

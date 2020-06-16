@@ -12,4 +12,6 @@ void change(unsigned char *chaine)
         }
         i++;
     }
+    printf("%s\n", chaine);
+
 }

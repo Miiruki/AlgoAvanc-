@@ -18,7 +18,6 @@ int main(int argc, char **argv, char **envv)
         i++;
     }
     changer(message.chain,a.argument ,b.argument);
-    printf("%s\n", message.chain);
     free(message.chain);
     return 0;
 }

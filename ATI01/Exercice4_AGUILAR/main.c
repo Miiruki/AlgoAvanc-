@@ -14,7 +14,6 @@ int main(int argc, char **argv, char **envv)
         i++;
     }
     min(message.chain);
-    printf("%s\n", message.chain);
     free(message.chain);
     return 0;
 }

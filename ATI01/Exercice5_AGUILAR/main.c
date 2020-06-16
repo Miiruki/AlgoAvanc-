@@ -16,7 +16,6 @@ int main(int argc, char** argv, char **env){
     }
     printf("La chaine non-inversée est : %s\n" , message.chain);
     mirror(message.chain, j);
-    printf("La chaine inversée est : %s\n", message.chain);
     free(message.chain);
     return 0;
 }

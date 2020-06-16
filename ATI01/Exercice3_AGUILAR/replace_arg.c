@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "toolbox.h"
 
 void changer(unsigned char* chaine, char a, char b)
@@ -12,4 +13,5 @@ void changer(unsigned char* chaine, char a, char b)
         }
         i++;
     }
+    printf("%s\n",chaine);
 }

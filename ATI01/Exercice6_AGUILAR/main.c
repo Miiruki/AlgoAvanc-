@@ -12,10 +12,10 @@ int main(int argc, char** argv, char **env){
     while ( tab[i] != '\0'){
         message.chain[i] = tab [i];
         i++;
+        j++;
     }
     printf("La chaine non-inversée est : %s\n" , message.chain);
     pall(message.chain, j);
-    printf("La chaine inversée est : %s\n", message.chain);
-   free(message.chain);
+    free(message.chain);
     return 0;
 }
